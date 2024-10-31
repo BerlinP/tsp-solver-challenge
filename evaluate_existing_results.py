@@ -17,8 +17,7 @@ from evaluation_utils import (
 )
 
 from solvers import (
-    NearestNeighbourSolver,
-    OrtoolSolver
+    NearestNeighbourSolver
 )
 
 from dataset_utils import load_default_dataset
@@ -113,7 +112,6 @@ def main():
     # Define solvers to test
     test_solvers = [
         NearestNeighbourSolver(),
-        OrtoolSolver(),
     ]
 
     # Compare solvers
